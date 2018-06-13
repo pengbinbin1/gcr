@@ -1,1 +1,1 @@
-FROM danisla/hadoop
+FROM danisla/hadoop:2.7.3
