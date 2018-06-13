@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # This file creates a standard build environment for building Kubernetes
-FROM k8s.gcr.io/kube-cross:KUBE_BUILD_IMAGE_CROSS_TAG
+FROM rainpavilionzhou/kube-cross:v1.10.2-1
 
 # Mark this as a kube-build container
 RUN touch /kube-build-image
