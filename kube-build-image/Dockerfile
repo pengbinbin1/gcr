@@ -44,7 +44,7 @@ RUN git config --system user.email "nobody@k8s.io" \
 RUN chmod -R a+rwx $GOPATH
 
 # Make log messages use the right timezone
-ADD localtime /etc/localtime
+ADD /etc/localtime /etc/localtime
 RUN chmod a+r /etc/localtime
 
 # Set up rsyncd
